@@ -198,8 +198,6 @@ namespace Pinokio.IKDT
         {
             Update3DView();
 
-
-
             _shapeFactory.DefineDrawSettings(_simDocument.Factories["FACTORY1"]);
             _shapeFactory.AddModelShapes(_simDocument.ModelManager.Models);
 
